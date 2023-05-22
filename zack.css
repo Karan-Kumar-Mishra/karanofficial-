@@ -60,11 +60,12 @@ body{
   text-align: center;
   align-items: center;
   justify-content: center;
- 
+  width: 50vw;
   padding: 5rem;
   font-size: 2rem;
   animation: zack5;
   animation-duration: 2s;
+  
 
 }
 @keyframes zack5
@@ -94,7 +95,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
+
 #btn button{
     background-color:blue;
     color :white;
@@ -259,4 +262,13 @@ body{
 }
 #contact #btn2:hover{
   width: 15rem;
+}
+#btn2{
+   background-color:  black;
+   border-radius: 1rem;
+  border: 2px solid red;
+  color: wheat;
+  padding: 0.5rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
 }
